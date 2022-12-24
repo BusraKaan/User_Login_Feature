@@ -67,7 +67,7 @@ namespace Digitus_User_Login_Feature.Controllers
                     SmtpClient smtp = new SmtpClient();
                     smtp.UseDefaultCredentials = true;
                     string SendingAccount = "yazilim.rengi@gmail.com";
-                    string sendingPassword = "_*yazilim22*_G";
+                    string sendingPassword = "********";
                     smtp.Credentials = new NetworkCredential(SendingAccount, sendingPassword);
                     smtp.Port = 587;
                     smtp.Host = "smtp.gmail.com";
